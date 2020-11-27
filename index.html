@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Gestion des hospitalisations</title>
+  </head>
+
+  <body>
+    <div id="application">
+      <nav class="application--navigation">
+        <div class="logo--container .flex--member">
+          <img
+            class="centered--image"
+            src="img/hospital.png"
+            alt="Logo"
+            width="40"
+            height="40"
+          />
+          <h4 class="logo--text">
+            Gestion <br />
+            des hospitalisations
+          </h4>
+        </div>
+
+        <div class="slogo--container .flex--member">
+          <h3 class="slogo--title">
+            Doués <br />
+            <span class="slogo--subtitle">Pour la vie</span>
+          </h3>
+        </div>
+      </nav>
+
+      <div class="blocky">
+        <li onclick="recupererPatients()">
+          <img src="img/patient.png" class="icon" />
+          Liste des patients
+        </li>
+        <li onclick="recupererEtablissements()">
+          <img src="img/hospital.png" class="icon" />
+          Liste des établissements
+        </li>
+        <li onclick="recupererHospitalisations()">
+          <img src="img/monitoring.png" class="icon" />
+          Liste des hospitalisations
+        </li>
+        <li onclick="creerSelectPatient()">
+          <img src="img/patient_.png" class="icon" />
+          Hospitalisation par patient
+        </li>
+        <li onclick="creerSelectHospitalisation()">
+          <img src="img/stethoscope.png" class="icon" />
+          Hospitalisations par établissements et par spécialité
+        </li>
+      </div>
+
+      <div class="container">
+        <div id="select--patient"></div>
+        <div id="select--etablissement"></div>
+        <div id="select--specialite"></div>
+        <div id="table--container" class="table--container"></div>
+      </div>
+
+      <div class="footer">
+        <div style="text-align: center">
+          <button class="status" onclick="toggleStatus()">Status</button>
+        </div>
+        <div id="status" style="display: none"></div>
+      </div>
+    </div>
+  </body>
+
+  <script src="js/elements.js"></script>
+  <script src="js/hospitalisations.js"></script>
+  <script src="js/main.js"></script>
+</html>

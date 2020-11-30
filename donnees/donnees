@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--LISTE PATIENTS -->
+<listePatients>
+    <!-- PATIENT #1 -->
+   <patient>
+      <date_naissance>1917-03-26</date_naissance>
+      <dossier>1</dossier>
+      <nom>Léger</nom>
+      <prenom>Émile</prenom>
+      <sex>M</sex>
+   </patient>
+     <!-- PATIENT #2 -->
+   <patient>
+      <date_naissance>1946-02-03</date_naissance>
+      <dossier>2</dossier>
+      <nom>Bernard</nom>
+      <prenom>Marie</prenom>
+      <sex>F</sex>
+   </patient>
+     <!-- PATIENT #3 -->
+   <patient>
+      <date_naissance>1959-04-05</date_naissance>
+      <dossier>3</dossier>
+      <nom>Chartrand</nom>
+      <prenom>Guy</prenom>
+      <sex>M</sex>
+   </patient>
+     <!-- PATIENT #4 -->
+   <patient>
+      <date_naissance>1978-09-02</date_naissance>
+      <dossier>4</dossier>
+      <nom>Côté</nom>
+      <prenom>André</prenom>
+      <sex>M</sex>
+   </patient>
+     <!-- PATIENT #5 -->
+   <patient>
+      <date_naissance>1973-11-04</date_naissance>
+      <dossier>5</dossier>
+      <nom>Lavoie</nom>
+      <prenom>Carole</prenom>
+      <sex>F</sex>
+   </patient>
+     <!-- PATIENT #6 -->
+   <patient>
+      <date_naissance>1965-12-02</date_naissance>
+      <dossier>6</dossier>
+      <nom>Martin</nom>
+      <prenom>Diane</prenom>
+      <sex>F</sex>
+   </patient>
+     <!-- PATIENT #7 -->
+   <patient>
+      <date_naissance>1956-01-25</date_naissance>
+      <dossier>7</dossier>
+      <nom>Lacroix</nom>
+      <prenom>Pauline</prenom>
+      <sex>F</sex>
+   </patient>
+     <!-- PATIENT #8 -->
+   <patient>
+      <date_naissance>1912-10-07</date_naissance>
+      <dossier>8</dossier>
+      <nom>St-Jean</nom>
+      <prenom>Arture</prenom>
+      <sex>M</sex>
+   </patient>
+     <!-- PATIENT #9 -->
+   <patient>
+      <date_naissance>1980-08-08</date_naissance>
+      <dossier>9</dossier>
+      <nom>Béchard</nom>
+      <prenom>Marc</prenom>
+      <sex>M</sex>
+   </patient>
+     <!-- PATIENT #10 -->
+   <patient>
+      <date_naissance>1947-07-23</date_naissance>
+      <dossier>10</dossier>
+      <nom>Chartrand</nom>
+      <prenom>Mario</prenom>
+      <sex>F</sex>
+   </patient>
+</listePatients>
+
+<!-- ########################### -->
+
+<!--LISTE ÉTABLISSEMENT -->
+<listeEtablissements>
+   <!-- ÉTABLISSEMENT #1 -->
+   <etablissement>
+      <adresse>1234 boul. Sud, Montréal, QC</adresse>
+      <code_postal>H2M 3Y6</code_postal>
+      <nom>Centre hospitalier Sud</nom>
+      <numero>1214</numero>
+      <telephone>(514) 121-1234</telephone>
+   </etablissement>
+   <!-- ÉTABLISSEMENT #2 -->
+   <etablissement>
+      <adresse>7562 rue du souvenir, Nordville, QC</adresse>
+      <code_postal>J4H 2Z5</code_postal>
+      <nom>Hôpital Nord</nom>
+      <numero>2346</numero>
+      <telephone>(450) 222-3333</telephone>
+   </etablissement>
+   <!-- ÉTABLISSEMENT #3 -->
+   <etablissement>
+      <adresse>4637 boul. de l'Église, Montréal, QC</adresse>
+      <code_postal>H3J 4K8</code_postal>
+      <nom>Hôpital Centre</nom>
+      <numero>1980</numero>
+      <telephone>(514) 121-5677</telephone>
+   </etablissement>
+   <!-- ÉTABLISSEMENT #4 -->
+   <etablissement>
+      <adresse>12 rue Bernad, Repentigny, Qc</adresse>
+      <code_postal>J8R 3K5</code_postal>
+      <nom>Centre hospitalier Est</nom>
+      <numero>4177</numero>
+      <telephone>(450) 589-2345</telephone>
+   </etablissement>
+   <!-- ÉTABLISSEMENT #5 -->
+   <etablissement>
+      <adresse>11 rue de la Redomption, St-Basil,Qc</adresse>
+      <code_postal>J8H 2D4</code_postal>
+      <nom>Hôpital du salut</nom>
+      <numero>7306</numero>
+      <telephone>(450) 345-6789</telephone>
+   </etablissement>
+   <!-- ÉTABLISSEMENT #6 -->
+   <etablissement>
+      <adresse>999 rue St-Pierre, Longueil, Qc</adresse>
+      <code_postal>I7B 3J6</code_postal>
+      <nom>Dernier recours</nom>
+      <numero>8495</numero>
+      <telephone>(450) 555-6741</telephone>
+   </etablissement>
+</listeEtablissements>
+
+<!-- ########################### -->
+
+<!-- lISTE HOSPITALISATIONS -->
+<?xml version="1.0" encoding="UTF-8"?>
+<listeHospitalisations>
+   <!-- HOSPITALISATIONS #1 -->
+   <hospitalisation>
+      <date_admission>2000-08-14</date_admission>
+      <date_sortie>2001-08-14</date_sortie>
+      <etablissement>1214</etablissement>
+      <patient>5</patient>
+      <specialite>médecine</specialite>
+   </hospitalisation>
+   <!-- HOSPITALISATIONS #2 -->
+   <hospitalisation>
+      <date_admission>1992-12-12</date_admission>
+      <date_sortie>1992-12-12</date_sortie>
+      <etablissement>1214</etablissement>
+      <patient>10</patient>
+      <specialite>chirurgie</specialite>
+   </hospitalisation>
+   <!-- HOSPITALISATIONS #3 -->
+   <hospitalisation>
+      <date_admission>2003-03-03</date_admission>
+      <date_sortie>2003-03-05</date_sortie>
+      <etablissement>2346</etablissement>
+      <patient>8</patient>
+      <specialite>médecine</specialite>
+   </hospitalisation>
+   <!-- HOSPITALISATIONS #4 -->
+   <hospitalisation>
+      <date_admission>1997-11-11</date_admission>
+      <date_sortie>1997-11-12</date_sortie>
+      <etablissement>2346</etablissement>
+      <patient>1</patient>
+      <specialite>orthopédie</specialite>
+   </hospitalisation>
+   <!-- HOSPITALISATIONS #5 -->
+   <hospitalisation>
+      <date_admission>2000-02-14</date_admission>
+      <date_sortie>2000-03-14</date_sortie>
+      <etablissement>3980</etablissement>
+      <patient>5</patient>
+      <specialite>médecine</specialite>
+   </hospitalisation>
+   <!-- HOSPITALISATIONS #6 -->
+   <hospitalisation>
+      <date_admission>1995-04-12</date_admission>
+      <date_sortie>1995-04-30</date_sortie>
+      <etablissement>2346</etablissement>
+      <patient>3</patient>
+      <specialite>médecine</specialite>
+   </hospitalisation>
+   <!-- HOSPITALISATIONS #7 -->
+   <hospitalisation>
+      <date_admission>2001-01-01</date_admission>
+      <date_sortie>2001-02-01</date_sortie>
+      <etablissement>3980</etablissement>
+      <patient>5</patient>
+      <specialite>médecine</specialite>
+   </hospitalisation>
+   <!-- HOSPITALISATIONS #8 -->
+   <hospitalisation>
+      <date_admission>1995-04-03</date_admission>
+      <date_sortie>1995-04-08</date_sortie>
+      <etablissement>3980</etablissement>
+      <patient>9</patient>
+      <specialite>orthopédie</specialite>
+   </hospitalisation>
+   <!-- HOSPITALISATIONS #9 -->
+   <hospitalisation>
+      <date_admission>1999-11-27</date_admission>
+      <date_sortie>1999-12-04</date_sortie>
+      <etablissement>3980</etablissement>
+      <patient>7</patient>
+      <specialite>chirurgie</specialite>
+   </hospitalisation>
+   <!-- HOSPITALISATIONS #10 -->
+   <hospitalisation>
+      <date_admission>1997-04-28</date_admission>
+      <date_sortie>1997-05-05</date_sortie>
+      <etablissement>3980</etablissement>
+      <patient>10</patient>
+      <specialite>chirurgie</specialite>
+   </hospitalisation>
+   <!-- HOSPITALISATIONS #11 -->
+   <hospitalisation>
+      <date_admission>2001-08-03</date_admission>
+      <date_sortie>2001-12-05</date_sortie>
+      <etablissement>4177</etablissement>
+      <patient>3</patient>
+      <specialite>médecine</specialite>
+   </hospitalisation>
+   <!-- HOSPITALISATIONS #12 -->
+   <hospitalisation>
+      <date_admission>2002-02-02</date_admission>
+      <date_sortie>2002-02-23</date_sortie>
+      <etablissement>4177</etablissement>
+      <patient>3</patient>
+      <specialite>orthopédie</specialite>
+   </hospitalisation>
+   <!-- HOSPITALISATIONS #13 -->
+   <hospitalisation>
+      <date_admission>1998-05-23</date_admission>
+      <date_sortie>1998-05-02</date_sortie>
+      <etablissement>7306</etablissement>
+      <patient>2</patient>
+      <specialite>orthopédie</specialite>
+   </hospitalisation>
+</listeHospitalisations>
